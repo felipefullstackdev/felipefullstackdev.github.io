@@ -1,19 +1,21 @@
 ---
-title: 'RoboChef - AI Powered Cooking Guide'
-description: RoboChef Recipe Assistant is a groundbreaking mobile application that leverages artificial intelligence to redefine the cooking experience.
-publishDate: 'Oct 12 2023'
+title: 'AI Bookkeeping - AI Powered Finances'
+description: " Smart Cloud Accounting & IT Solutions That Simplify Your Business
+ Manage your finances, data, and technology - secure from anywere."
+publishDate: 'aug 12 2025'
 isFeatured: true
 seo:
   image:
-    src: '../../assets/images/project-3.jpg'
+    src: '/public/images/ai-bookkeeping.png'
 ---
 
-![Project preview](../../assets/images/project-3.jpg)
+![Project preview](/public/images/ai-bookkeeping.png)
 
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
 
 **Project Overview:**
-RoboChef Recipe Assistant is a groundbreaking mobile application that leverages artificial intelligence to redefine the cooking experience. By combining machine learning with culinary expertise, RoboChef empowers users to explore a world of flavors, improve their cooking skills, and enjoy personalized recipe recommendations.
+We Help Business Run smarter, Not Harder
+At Company, we simpply business management thre cloud-based financial and IT solutions. our experts, and cloud-first approach help you stay organized, efficient, and scalable.
+<a href="https://globalcmdconsulting.com/ai-bookkeeping/" target="_blank" rel="noopener noreferrer">ai-bookkeeping.com</a>
 
 ## Objectives
 
@@ -61,4 +63,3 @@ RoboChef Recipe Assistant is a groundbreaking mobile application that leverages 
 
 RoboChef Recipe Assistant has revolutionized the way users approach cooking, making it an enjoyable and educational experience. The AI-powered features not only simplify the cooking process but also contribute to users' culinary growth, creating a personalized and evolving cooking journey.
 
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
