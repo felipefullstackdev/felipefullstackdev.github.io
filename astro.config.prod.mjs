@@ -7,7 +7,7 @@ import siteConfig from './src/data/site-config';
 // https://astro.build/config
 export default defineConfig({
  site: 'https://felipefullstackdev.github.io',
-  base: '/',  // ← Sin nombre de repo para local
+  base: '/felipefullstackdev.github.io',  // ← Con nombre de repo
   
   vite: {
     plugins: [tailwindcss()]
