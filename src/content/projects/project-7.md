@@ -5,10 +5,10 @@ publishDate: 'Jan 10 2024'
 isFeatured: true
 seo:
   image:
-    src: '../../assets/images/project-7.jpg'
+    src: '../../assets/images/ai-bookkeeping.png'
 ---
 
-![Project preview](../../assets/images/project-7.jpg)
+![Project preview](../../assets/images/ai-bookkeeping.png)
 
 
 **Project Overview:**
