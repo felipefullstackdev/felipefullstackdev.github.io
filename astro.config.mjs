@@ -1,17 +1,22 @@
+import { defineConfig } from 'astro/config';
 import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
-import { defineConfig } from 'astro/config';
-import siteConfig from './src/data/site-config';
 
 // https://astro.build/config
 export default defineConfig({
- site: 'https://felipefullstackdev.github.io',
-  base: '/',  // ← Sin nombre de repo para local
+  // Configuración para GitHub Pages
+  site: 'https://felipefullstackdev.github.io',
+  base: '/felipefullstackdev.github.io',
   
   vite: {
     plugins: [tailwindcss()]
   },
   
-  integrations: [mdx(), sitemap()]
+  integrations: [mdx(), sitemap()],
+  
+  // Esto es importante para las imágenes
+  build: {
+    assets: 'assets'
+  }
 });
