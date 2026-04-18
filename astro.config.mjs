@@ -6,10 +6,15 @@ import siteConfig from './src/data/site-config';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://felipefullstack.github.io',
-  base: '/felipefullstackdev.github.io',
-    vite: {
-        plugins: [tailwindcss()]
-    },
-    integrations: [mdx(), sitemap()]
+  // Si estás en local (development), base = '/'
+  // Si estás en producción (GitHub Pages), base = '/nombre-repo/'
+  base: import.meta.env.PROD ? '/felipefullstackdev.github.io' : '/',
+  
+  site: 'https://felipefullstackdev.github.io',
+  
+  vite: {
+    plugins: [tailwindcss()]
+  },
+  
+  integrations: [mdx(), sitemap()]
 });
