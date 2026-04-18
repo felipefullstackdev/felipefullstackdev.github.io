@@ -7,6 +7,7 @@ import siteConfig from './src/data/site-config';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://felipefullstack.github.io',
+  base: '/felipefullstackdev.github.io',
     vite: {
         plugins: [tailwindcss()]
     },
